@@ -1,0 +1,25 @@
+---
+title: NP
+date: 2023-05-20 12:00:00 -500
+categories: [GNS3, ]
+tags: 
+---
+
+# Project Overview 
+
+This Project Will Simulate buildiing a network infrstructer from the group up. We will simulate building the new buisness infrestructor (Company Name A) then simulate builiding company epansion to onether child site. Fromt here we will run automation using python to automotically build and deploy two other child sites with workstations
+
+# Installing GNS3 
+
+First thing I am going to do is install GNS3. GNS3 Will allow me to run a virtual network appliances and workstations. 
+We can do this by going to the GNS Website and follow their install instructions: https://docs.gns3.com/
+
+I am installing this on ubunut OS and you can do this but running the commands below 
+
+``` json 
+
+{
+sudo add-apt-repository ppa:gns3/ppa
+sudo apt update                                
+sudo apt install gns3-gui gns3-server
+}
